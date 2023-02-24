@@ -571,6 +571,17 @@ footer .info ul li:hover a i{
     }
 }
 
+@media(max-width: 560px){
+    .games .cardBx{
+    width:400px;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
 h2.separador{
     border-bottom: 4px solid var(--main-color);
 }
