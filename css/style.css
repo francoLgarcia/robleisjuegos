@@ -581,6 +581,13 @@ footer .info ul li:hover a i{
     align-items: center;
     }
 }
+@media(max-width: 475px){
+    .banner .bg .content h2 {
+        font-size: 2.5em;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+}
 
 h2.separador{
     border-bottom: 4px solid var(--main-color);
